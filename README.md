@@ -8,4 +8,5 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-Not really sure if I'm in the MacReadmeBranch or not, but definitely making changes on the mac using vi on the clonsed version after the MacReadmeBranch was created.
+Not really sure if I'm in the MacReadmeBranch or not, but definitely making changes on the mac using vi on the cloned version after the MacReadmeBranch was created.
+### Corrected typo from the github GUI after committing the mac brach from the command line.
