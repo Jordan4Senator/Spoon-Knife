@@ -8,4 +8,6 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-Solving MantisBT Issue #24
+The first attempt to test MantisBT github integration failed.
+Trying again to close Issue #24 with a more explicit commit message
+(instead of "Fixes#24" using the EXACT same format as on the web page: Fixes issue #17
