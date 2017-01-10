@@ -21,3 +21,7 @@ will set it to resolve and add the commit code.
 It would be nice if there were the same hooks 'pre-baked' in git so
 that during the check-in the URL replaces the text (the URL is shown
 within the Mantis tool, but not within the git comment in the repo)
+
+Works fine. Both issues were appropriately closed - no local hooks howeve
+means that in github, the bug numbers tries to reroute to their issue
+tracker.
