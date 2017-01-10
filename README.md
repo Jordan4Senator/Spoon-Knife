@@ -11,3 +11,13 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 The first attempt to test MantisBT github integration failed.
 Trying again to close Issue #24 with a more explicit commit message
 (instead of "Fixes#24" using the EXACT same format as on the web page: Fixes issue #17
+
+Looking at the reg ex from setting page:
+/(?:bugs?|issues?|reports?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i
+will track it
+/(?:fixe?d?s?|resolved?s?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i
+will set it to resolve and add the commit code.
+
+It would be nice if there were the same hooks 'pre-baked' in git so
+that during the check-in the URL replaces the text (the URL is shown
+within the Mantis tool, but not within the git comment in the repo)
